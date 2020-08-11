@@ -1,0 +1,27 @@
+/* 首页index css代码 */
+/* 版心 */
+.w {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.shortcut {
+    height: 40px;
+    background-color: #32373e;
+}
+.shortcut-l {
+    float: left;
+}
+.shortcut-l .logo {
+    float: left;
+    width: 43px;
+    height: 40px;
+    background-image: url(../images/sprite_361857f.png);
+    background-repeat: no-repeat;
+    background-position: -10px -1px;
+    background-size: 64px 128px;
+}
+.shortcut-l .nav {
+    float: left;
+    height: 40px;
+}
