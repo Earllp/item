@@ -25,3 +25,84 @@
     float: left;
     height: 40px;
 }
+.shortcut-l .nav .quanguo {
+    margin: 0 30px;
+    line-height: 40px;
+}
+.shortcut-l .nav .quanguo span {
+    color: #0dca9f;
+}
+.shortcut-l .nav .quanguo em {
+    color: #AFB5C0;
+    font-size: 12px;
+}
+.shortcut-l .nav ul li{
+    float: left;
+}
+.shortcut-l .nav ul li a {
+    display: inline-block;
+    padding: 0 20px;
+    height: 40px;
+    color: #AFB5C0;
+    line-height: 40px;
+
+}
+.shortcut-l .nav ul li a:hover {
+    /* height: 40px; */
+    color: #fff;
+    background-color: #24282c;
+}
+.shortcut-r {
+    float: right;
+}
+.shortcut-r ul li{
+    float: left;
+    position: relative;
+    line-height: 40px;
+    /* color: #AFB5C0; */
+}
+.shortcut-r ul li a {
+    color: #AFB5C0;
+}
+.shortcut-r ul li a:hover {
+    color: #fff;
+}
+.shortcut-r .enter:before {
+    content: "";
+    position: absolute;
+    top: 11px;
+    left: -28px;
+    width: 18px;
+    height: 18px;
+    background-image: url(../images/sprite_361857f.png);
+    background-repeat: no-repeat;
+    background-position: -10px -41px;
+    background-size: 64px 128px;
+
+}
+.shortcut-r .login {
+    padding-right: 50px;
+}
+.shortcut-r>ul>li>span {
+    padding: 0 7px;
+    color: #5e6166;
+}
+.shortcut-r .phone a{
+    margin-right: 20px;
+    color: #00C295;
+}
+.shortcut-r .phone a:hover {
+    color: #12ddae;
+}
+.shortcut-r .phone:before {
+    content: "";
+    position: absolute;
+    top: 11px;
+    left: -28px;
+    width: 18px;
+    height: 18px;
+    background-image: url(../images/sprite_361857f.png);
+    background-repeat: no-repeat;
+    background-position: -35px -40px;
+    background-size: 64px 128px;
+}
