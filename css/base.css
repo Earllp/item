@@ -32,6 +32,10 @@ a {
     text-decoration: none
 }
 
+div {
+    display: block;
+}
+
 a:hover {
     color: #0dca9f;
 }

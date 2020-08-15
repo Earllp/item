@@ -106,3 +106,101 @@
     background-position: -35px -40px;
     background-size: 64px 128px;
 }
+
+/* top banner  */
+.top-banner {
+    /* position: relative; */
+    height: 120px;
+    background-color: #00b38a;
+}
+.top-banner .tl img {
+    float: left;
+    width: 228px;
+    height: 120px;
+}
+.top-banner .tl .text-tl {
+    float: left;
+}
+.top-banner .tl .text-tl img {
+    margin: 36px 0 4px;
+    width: 330px;
+    height: 30px;
+}
+.top-banner .tl .text-tl p {
+    color: #fff;
+}
+/*  tr */
+.tr {
+    float: right;
+    margin-top: 42px;
+}
+.tr .tr-login {
+    /* width: 212px; */
+    height: 35px;
+    line-height: 35px;
+    /* background-color: #fff; */
+}
+.tr .tr-login .tel {
+    float: left;
+    position: relative;
+    background-color: #fff;
+    /* box-sizing: border-box; */
+}
+.tr .tr-login .tel span {
+    margin: 0 10px;
+    /* box-sizing: border-box; */
+
+}
+.tr .tr-login .tel span:after {
+    content: '';
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    width: 9px;
+    height: 5px;
+    margin-top: -2.5px;
+    background-image: url(../images/trangle_1091ce9.png);
+}
+.tr .tr-login .tel input {
+    padding-left: 10px;
+    width: 150px;
+    color: #333;
+    /* box-sizing: border-box; */
+
+}
+.tr .tr-login .code {
+    float: left;
+    margin: 0 8px;
+    background-color: #fff;
+}
+.tr .tr-login .code input {
+    float: left;
+    height: 35px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border: 0;
+    line-height: 35px;
+    width: 95px;
+}
+.tr .tr-login .code .huoqv {
+    position: relative;
+    float: left;
+    width: 52px;
+    text-align: center;
+    color: #00b38a;
+    cursor: pointer;
+}
+.tr .tr-login .code .huoqv:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 12px;
+    width: 1px;
+    height: 12px;
+    background-color: #ccc;
+    overflow: hidden;
+    /* right: 47px; */
+    
+}
+
+
