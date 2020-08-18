@@ -231,10 +231,10 @@
     height: 46px;
     
 }
-.search-form {
-    /* position: static;
-    top: 10px; */
-}
+/* .search-form {
+     position: static;
+    top: 10px; 
+} */
 .search-form input {
     float: left;
     border: 1px solid #e8e8e8;
@@ -249,7 +249,7 @@
     height: 46px;
     font-size: 16px;
     color: #fff;
-    background-color: #00b38a;   00a57f
+    background-color: #00b38a;   
 }
 .search-form button:hover {
     background-color: #00a57f;
@@ -266,4 +266,82 @@
 }
 .hotSearch dd a:hover {
     text-decoration: underline;
+}
+/* 主体部分 */
+.clearfix {
+    margin-top: 30px;
+    height: 380px;
+    /* background-color: pink; */
+}
+.clearfix .posts {
+    float: left;
+    color: #333;
+    width: 320px;
+}
+.clearfix .posts ul li {
+    position: relative;
+    float: left;
+    width: 321px;
+    height: 47px;
+}
+.clearfix .posts ul li:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 6px;
+    height: 11px;
+    margin-top: -2.5px;
+    background-image: url(../images/arrow_92b8589.png);
+}
+.clearfix .posts ul li dt {
+    float: left;
+    font-size: 18px;
+    line-height: 47px;
+    margin: 0 15px;
+}
+.clearfix .posts ul li dd {
+    line-height: 50px;
+}
+.clearfix .posts ul li dd a {
+ color: #555;
+}
+.clearfix .posts ul li dd a:hover {
+    text-decoration: underline;
+    color: #00b38a;
+}
+.banner {
+    float: right;
+    margin-top: 14px;
+}
+/* 24小时热门 */
+.hourHot {
+    margin-top: 42px;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+    height: 52px;
+
+}
+.hourHot ul {
+    height: 52px;
+    line-height: 52px;
+}
+.hourHot ul li{
+    float: left;
+    margin-right: 60px;
+    cursor: pointer;
+}
+.hourHot .checked {
+    height: 52px;
+    color: #333;
+    border-bottom: 2px solid #333;
+}
+/* 提示 hint */
+.hint {
+    margin-top: 28px;
+}
+.hint button {
+    margin-left: 28px;
+    color: #00C295;
+    background-color: #fff;
 }
